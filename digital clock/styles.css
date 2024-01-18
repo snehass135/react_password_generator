@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.clock-container {
+    text-align: center;
+    border-radius: 3px solid white;
+    height: 250px;
+    width: 350px;
+}
+
+.clock {
+    background-color: #000;
+    color: #bada55;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#time {
+    font-size: 36px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #bada55;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'IBM Plex Mono', monospace;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
